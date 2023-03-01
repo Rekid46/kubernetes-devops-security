@@ -49,10 +49,6 @@ public class NumericController {
 			logger.info("Node Service Response - " + response);
 			return Integer.parseInt(response);
 		}
-		@GetMapping("/")
-		public String error() {
-			return "Sorry!! :-(";
-		}
 	}
 
 }
